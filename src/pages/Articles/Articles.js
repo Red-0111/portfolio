@@ -78,7 +78,7 @@ const ArticlesLayout = () => {
   return (
     <div className="articles">
       <Helmet>
-        <title>{`Articles | Hamish Williams Designer`}</title>
+        <title>{`Articles | Rudransh Arora Frontend`}</title>
         <meta
           name="description"
           content="A collection of technical design and development articles."

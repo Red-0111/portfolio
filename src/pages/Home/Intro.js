@@ -70,10 +70,10 @@ export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...r
             )}
             <header className="intro__text">
               <h1 className="intro__name" data-status={status} id={titleId}>
-                <DecoderText text="Hamish Williams" start={!prerender} delay={300} />
+                <DecoderText text="Rudransh Arora" start={!prerender} delay={300} />
               </h1>
               <Heading level={0} as="h2" className="intro__title">
-                <VisuallyHidden className="intro__title-label">{`Designer + ${introLabel}`}</VisuallyHidden>
+                <VisuallyHidden className="intro__title-label">{`Frontend + ${introLabel}`}</VisuallyHidden>
                 <span aria-hidden className="intro__title-row" data-hidden={prerender}>
                   <span
                     className="intro__title-word"

@@ -23,7 +23,7 @@ const ProfileText = ({ status, titleId }) => (
       <DecoderText text="Hi there" start={status !== 'exited'} delay={500} />
     </Heading>
     <Text className="profile__description" data-status={status} size="l">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
+      I’m Rudransh, currently I live in Gurugram working as a senior product designer at{' '}
       <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
       animations, and icon illustration. Being comfortable with code allows me to rapidly
       prototype and validate experiences. If you're interested in the tools and software I

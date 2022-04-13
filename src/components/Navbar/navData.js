@@ -32,7 +32,7 @@ export const socialLinks = [
   },
   {
     label: 'Github',
-    url: 'https://github.com/HamishMW',
+    url: 'https://github.com/Red-0111',
     icon: 'github',
   },
 ];
