@@ -139,7 +139,7 @@ export const Home = () => {
   return (
     <div className="home">
       <Helmet>
-        <title>Rudransh Arora | Designer + Developer</title>
+        <title>Rudransh Arora | Developer + Designer</title>
         <meta
           name="description"
           content="Portfolio of Rudransh Arora – a digital designer working on web &amp; mobile
@@ -159,10 +159,13 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View Project"
-        buttonLink="/projects/smart-sparrow"
+        title="React Movie Database App"
+        description="The webapp was bulit using React JS and React
+Hooks. It fetches data from MovieDatabase API and
+displays data in the app."
+        buttonText="Visit Website"
+        // buttonLink="/projects/smart-sparrow"
+        buttonLink="https://redreactmoviedb.netlify.app/"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -181,10 +184,17 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View Website"
-        buttonLink="https://gamestack.hamishw.com"
+        title="The Guiding Hand"
+        description="The program is built using OpenCV and some other
+python libraries. It has a website made in React JS
+which redirects the user to the Flask application of
+the program. It is an alternative user interface for
+providing real-time data through hand gestures to a
+computer instead of typing with keys thereby
+reducing the amount of effort required to
+communicate over platforms"
+        buttonText="View Project"
+        buttonLink="https://devpost.com/software/the-guiding-hand"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -207,10 +217,13 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View Project"
-        buttonLink="/projects/slice"
+        title="Rab Da Banda Foundation Website"
+        description="Built using HTML5, CSS3 and JavaScript. The
+website was made for an NGO, Rab Da Banda
+Foundation"
+        buttonText="Visit Website"
+        buttonLink="https://rabdabandafoundation.github.io/"
+        // buttonLink="/projects/slice"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
