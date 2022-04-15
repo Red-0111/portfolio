@@ -20,14 +20,17 @@ import { reflow } from 'utils/transition';
 const ProfileText = ({ status, titleId }) => (
   <Fragment>
     <Heading className="profile__title" data-status={status} level={3} id={titleId}>
-      <DecoderText text="Hi there" start={status !== 'exited'} delay={500} />
+      <DecoderText text="Hi there!" start={status !== 'exited'} delay={500} />
     </Heading>
-    <Text className="profile__description" data-status={status} size="l">
+    {/* <Text className="profile__description" data-status={status} size="l">
       I’m Rudransh, currently I live in Gurugram working as a senior product designer at{' '}
       <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
       animations, and icon illustration. Being comfortable with code allows me to rapidly
       prototype and validate experiences. If you're interested in the tools and software I
       use check out my <Link href="/uses">uses page</Link>.
+    </Text> */}
+    <Text className="profile__description" data-status={status} size="l">
+      I’m Rudransh, I live in Gurugram and currently I am pursuing my B.Tech from Thapar Institute of Engineering and Technology, Patiala with a major in Electronics and Computer Engineering. 
     </Text>
     <Text className="profile__description" data-status={status} size="l">
       In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
