@@ -30,12 +30,11 @@ const ProfileText = ({ status, titleId }) => (
       use check out my <Link href="/uses">uses page</Link>.
     </Text> */}
     <Text className="profile__description" data-status={status} size="l">
-      I’m Rudransh, I live in Gurugram and currently I am pursuing my B.Tech from Thapar Institute of Engineering and Technology, Patiala with a major in Electronics and Computer Engineering. 
+      I’m Rudransh, an all-time learner from Gurugram, currently pursuing my B.Tech from Thapar Institute of Engineering and Technology, Patiala, majoring in Electronics and Computer Engineering {' '}(
+      <Link href="https://www.thapar.edu/upload/files/BE%20ENC%202020.pdf">ENC</Link>). I love to explore tech until things start to wreck xD. 
     </Text>
     <Text className="profile__description" data-status={status} size="l">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      I like to spend my spare time with nature, playing guitar and playing video games. I am always ready to take up new projects, so feel free to ping me up.
     </Text>
   </Fragment>
 );

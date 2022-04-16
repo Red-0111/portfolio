@@ -26,9 +26,9 @@ export const socialLinks = [
     icon: 'twitter',
   },
   {
-    label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
-    icon: 'figma',
+    label: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/rudransh-arora/',
+    icon: 'linkedin',
   },
   {
     label: 'Github',

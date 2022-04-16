@@ -7,7 +7,7 @@ import { ReactComponent as Close } from 'assets/icons/close.svg';
 import { ReactComponent as Copy } from 'assets/icons/copy.svg';
 import { ReactComponent as Dribbble } from 'assets/icons/dribbble.svg';
 import { ReactComponent as Error } from 'assets/icons/error.svg';
-import { ReactComponent as Figma } from 'assets/icons/figma.svg';
+import { ReactComponent as LinkedIn } from 'assets/icons/linkedin.svg';
 import { ReactComponent as Github } from 'assets/icons/github.svg';
 import { ReactComponent as Menu } from 'assets/icons/menu.svg';
 import { ReactComponent as Pause } from 'assets/icons/pause.svg';
@@ -24,7 +24,7 @@ export const icons = {
   copy: Copy,
   dribbble: Dribbble,
   error: Error,
-  figma: Figma,
+  linkedin: LinkedIn,
   github: Github,
   menu: Menu,
   pause: Pause,
