@@ -22,7 +22,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
+    url: 'https://twitter.com/red_rudransh',
     icon: 'twitter',
   },
   {
