@@ -2,18 +2,18 @@ import './Home.css';
 
 import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
 import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
-import gamestackTexture2 from 'assets/gamestack-list.jpg';
+import gamestackTexture2 from 'assets/gamestack-list.png';
 import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
 import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
-import gamestackTexture from 'assets/gamestack-login.jpg';
+import gamestackTexture from 'assets/gamestack-login.png';
 import iphone11 from 'assets/iphone-11.glb';
 import macbookPro from 'assets/macbook-pro.glb';
 import sliceTextureLarge from 'assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceTexture from 'assets/slice-app.jpg';
-import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
+import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.png';
 import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
+import sprTexture from 'assets/spr-lesson-builder-dark.png';
 import { Footer } from 'components/Footer';
 import { usePrefersReducedMotion, useRouteTransition } from 'hooks';
 import { Intro } from 'pages/Home/Intro';
@@ -168,7 +168,7 @@ displays data in the app."
         buttonLink="https://redreactmoviedb.netlify.app/"
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Movie database app',
           textures: [
             {
               src: sprTexture,
@@ -184,17 +184,12 @@ displays data in the app."
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="The Guiding Hand"
-        description="The program is built using OpenCV and some other
-python libraries. It has a website made in React JS
-which redirects the user to the Flask application of
-the program. It is an alternative user interface for
-providing real-time data through hand gestures to a
-computer instead of typing with keys thereby
-reducing the amount of effort required to
-communicate over platforms"
-        buttonText="View Project"
-        buttonLink="https://devpost.com/software/the-guiding-hand"
+        title="Rab Da Banda Foundation Website"
+        description="Built using HTML5, CSS3 and JavaScript. The
+website was made for an NGO, Rab Da Banda
+Foundation"
+        buttonText="View Website"
+        buttonLink="https://rabdabandafoundation.github.io/"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -217,12 +212,17 @@ communicate over platforms"
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Rab Da Banda Foundation Website"
-        description="Built using HTML5, CSS3 and JavaScript. The
-website was made for an NGO, Rab Da Banda
-Foundation"
+        title="The Guiding Hand"
+        description="The program is built using OpenCV and some other
+python libraries. It has a website made in React JS
+which redirects the user to the Flask application of
+the program. It is an alternative user interface for
+providing real-time data through hand gestures to a
+computer instead of typing with keys thereby
+reducing the amount of effort required to
+communicate over platforms"
         buttonText="Visit Website"
-        buttonLink="https://rabdabandafoundation.github.io/"
+        buttonLink="https://devpost.com/software/the-guiding-hand"
         // buttonLink="/projects/slice"
         model={{
           type: 'laptop',
