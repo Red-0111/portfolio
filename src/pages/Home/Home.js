@@ -1,9 +1,9 @@
 import './Home.css';
 
-import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
+import gamestackTexture2Large from 'assets/gamestack-list-large.png';
 import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
 import gamestackTexture2 from 'assets/gamestack-list.png';
-import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
+import gamestackTextureLarge from 'assets/gamestack-login-large.png';
 import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
 import gamestackTexture from 'assets/gamestack-login.png';
 import iphone11 from 'assets/iphone-11.glb';
